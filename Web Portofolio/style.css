@@ -1,0 +1,386 @@
+*, 
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+.button{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.navBar {
+    background-color: #ffffff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 100% 13px 8%;
+    background-color: #220047;
+    width: 85%;
+    position: fixed;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #1e40ff;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #1e40ff;
+    transition: .7s;
+}
+
+
+/* Hero-section */
+.Hero-section {
+    background: url("/xyz/assets/wallpaper\ portfolio.jpg");
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-left: 12em;
+    align-items: center;
+}
+
+.background {
+    background-image: "/xyz/assets/wallpaper/portfolio.jpg";
+}
+
+.Hero-section .judul h2 {
+    font-size: 70px;
+    color: black;
+}
+
+.Hero-section .judul h1 {
+    font-size: 95px;
+    color: black;
+}
+
+.Hero-section .judul h3 {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 27px;
+    padding-top: .5em;
+    padding-bottom: 2em;
+}
+
+.Hero-section .judul button {
+    background-color: #0021df;
+    color: white;
+    border-radius: 10em;
+    font-size: 20px;
+    padding: .4em .9em;
+    cursor: pointer;
+}
+
+.judul button:hover{
+    background: #220047;
+    color:white;
+    transition: .40s;
+}
+
+
+/* Profile */
+.about {
+    padding-top: 90px;
+}
+
+.profile {
+    height: 670px;
+    width: 100%;
+    background-color: black;
+}
+
+.content {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5em;
+    padding-top: 5em;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.image {
+    border-radius: 500%;
+    width: 380px;
+    height: 500px;
+    border: 13px solid #030040;
+}
+
+.info {
+    padding-right: 15em;
+    text-align: center;
+    color: white;
+}
+
+.profile .content h2 {
+    padding-top: 5px;
+    font-size: 50px;
+}
+
+.content p {
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.profile .content .info button {
+    background-color: #220047;
+    color: white;
+    border-radius: 10em;
+    font-size: 20px;
+    padding: .4em .9em;
+    cursor: pointer;
+}
+
+.profile .content .info button:hover {
+    background: #0021df;
+    color:white;
+    transition: .40s;
+}
+/* diatas masih ada yang kuruang */
+
+
+/* Work Samples */
+.samples {
+    padding-top: 60px;
+    height: 680px;
+    width: 100%;
+}
+
+.pengalaman {
+    background-color: rgb(255, 255, 255);
+    width: 1100px;
+    height: 530px;
+    margin: 100px auto;
+    border-radius: 33px;
+    box-shadow: 0px 3px 0px 3px rgba(0, 0, 0, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
+.pengalaman h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding: 30 0 30 0;
+    font-size: 50px;
+    color: #02002a;
+}
+
+.skill {
+    display: flex;
+    /* flex-direction: row; */
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+}
+
+.skill-1 {
+    padding-top: 3em;
+}
+
+.skill-1 h2 {
+    margin: 36px 0 0 0;
+}
+
+.skill-1 p {
+    /* width: 70%; */
+    margin: 50px;
+}
+/* diatas masih ada yang kurang */
+
+
+
+/* Resume */
+.resume {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    padding-top: 120px;
+    margin-top: 10px;
+}
+
+.resume-2 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1100px;
+    height: 800px;
+    margin: 50px auto;
+    border-radius: 33px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
+.project {
+    width: 605px;
+    margin: 50px 50px 10px 10px;
+}
+
+.project h1 {
+    color: #0d00ff;
+    padding-top: 1em;
+}
+
+.project h3 {
+    font-weight:normal;
+    text-align: left;
+    color: rgb(169, 0, 0);
+    width: 550px;
+    margin-top: 15px;
+    line-height: 30px;
+    padding-bottom: 2em;
+}
+
+.result .project button {
+    background-color: #0021df;
+    color: white;
+    border-radius: 10em;
+    font-size: 15px;
+    padding: .4em .9em;
+    cursor: pointer;
+}
+
+.result .project button:hover {
+    background: #220047;
+    color:white;
+    transition: .40s;
+}
+
+.result .image-toko {
+    width: 130px;
+    margin: 80px 30px 30px 80px;
+}
+
+footer {
+    padding-top: 40px;
+    margin-top: 130px;
+    width: 100%;
+    height: 150px;
+    background-color: #220047;
+}
+
+footer p{
+    font-size: 21px;
+    color: #1e40ff;
+    text-align: center;
+    margin: 28px auto;
+    cursor: pointer;
+}
+
+footer .contact{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+footer .sosmed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sosmed img{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+/* popup button */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+  /* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+  /* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+  /* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}

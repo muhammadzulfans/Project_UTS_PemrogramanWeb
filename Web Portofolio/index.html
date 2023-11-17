@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div class="navBar">
+        <nav id="Nav">
+            <h2 class="logo"><span>My</span>Portofolio</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about me">About Me</a></li>
+                <li><a href="#work sample">Work Samples</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="background">
+        <div class="Hero-section" id="home">
+            <div class="judul">
+                <h2>Hello</h2>
+                <h1>Saya Zulfan</h1>
+                <h3>Saya Mahasiswa Teknik Informatika Engineering</h3>
+                
+                <button>
+                    More About Me
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about me">
+        <div class="profile">
+            <div class="content">
+                <img class="image" src="assets/wisuda.jpeg">
+                <div class="info">
+                    <h2>Hi, Nice to meet you.</h2>
+                    <p>My name is Muhammad Zulfan. S</p>
+                    <p>I'm from Brebes, Center Java</p>
+                    <p>"Aku tidak sebaik yang kau ucapkan, tapi aku juga tidak seburuk apa yang terlintas dihatimu"</p>
+                    
+
+                    <button class="popup" onclick="myFunction()">
+                        Download CV
+                        <span class="popuptext" id="myPopup">
+                            hallo guyss !!!
+                        </span>
+                    </button>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="samples" id="work sample">
+        <div class="pengalaman">
+            <h1>WORK SAMPLES</h1>
+            <div class="skill">
+                <div class="skill-1">
+                    <img src="assets/uiux.png">
+                    <h2>Bussines Star Up</h2>
+                    <p>Salah satu keinginan saya saat ini adalah belajar membangun Bussines Star Up dengan berbasis Website</p>
+                </div>
+                <div class="skill-1">
+                    <img src="assets/frontend.png">
+                    <h2>Front End Dev</h2>
+                    <p>Situs web yang menggunakan html dan css, dibuat dengan mengembangkan skill baru dalam membuat Website sederhana.</p>
+                </div>
+                <div class="skill-1">
+                    <img src="assets/uiux.png">
+                    <h2>UI/UX Designer</h2>
+                    <p>Saya suka membuat prototipe, ini membantu saya memikirkan model interaksi dan pengalaman hal baru.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="resume" id="resume">RESUME PENGALAMAN</h1>
+    <p class="resume-2">Berikut beberapa pengalaman saya saat ini.</p>
+    <div class="result"> 
+        <div class="project">
+            <h1>Aplikasi Pembukuan Toko cat</h1>
+            <h3>
+                Ini adalah project yang pernah saya kerjakan pada saat UAS Semester 2,
+                ini hanya desain UI/UX dan belum terealisasi pada tahap Aplikasi Website,
+                pada project ini saya membuat suatu aplikasi pembukuan toko cat,
+                yang bertujuan untuk meringankan penginputan data stok barang dan output
+                stok penjualan. jika Anda ingin tahu lebih banyak.
+                Anda dapat melihat kasusnya dengan mengklik tombol di samping.
+            </h3>
+
+            <button>
+                View case study
+            </button>
+
+            <h1>Seminar Invofest</h1>
+            <h3>Seminar Invofest dengan tema Unlocking the Future: Embracing the Digital Revolution for a Better Tomorrow", dengan diisi oleh 
+                Bapak Indra Kurniawan selaku Senior Consultant RedHat, membahas tentang apa itu redhat(sebuah open source di bidang software) 
+                dan apa saja aplikasi yang menggunakan Redhat sebagai OS nya. Beliau juga mengatakan bahwa saat ini 95% perusahaan sudah menggunakan Linux,
+                karena linux bersifat open source menjadikan aplikasi lebih aman.</h3>
+            
+            <button>
+                Read More
+            </button>
+
+        </div>
+        <div class="image-toko">
+            <img src="assets/Tampilan aplikasi toko cat.png" width="160px" >
+        </div>
+    </div>
+    
+    <footer>
+        <div class="contact" id="contact">
+            <!-- <div class="container"> -->
+            <div class="sosmed" >
+                <a href="https://www.linkedin.com/in/yasir-rizki-662167252">
+                    <img src="assets/linkedin.png" >
+                </a>
+                <a href="https://www.instagram.com/_mhmdzlfns/">
+                    <img src="assets/ig.png" >
+                </a>
+                <a href="https://github.com/muhammadzulfans">
+                    <img src="assets/github.png" >
+                </a>
+            </div>
+        </div>
+        <p>©2023 All Right Reserved - By Muhammad Zulfan. S</p>
+    </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
