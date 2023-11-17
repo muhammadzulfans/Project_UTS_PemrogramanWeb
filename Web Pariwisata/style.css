@@ -1,3 +1,12 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar */
 nav {
     background-color: #220047;
     padding: 25px;
@@ -12,28 +21,12 @@ nav a {
     transition: box-shadow 0.3s ease-in-out; 
 }
 
-body {
-    font-family: sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-    }
-
-.container {
-    display: flex;
-    align-items: center;
-    padding: 10px 0px;
-    }
-
-.button-container {
-    display: flex;
-    gap: 10px;
-}
 
 h1 {
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    padding-top: 20vh;
     padding-bottom: 30px;
     color: black;
 }
@@ -43,10 +36,10 @@ h2 {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    }
+}
     
 h3 {
-    padding-top: 100px;
+    padding-top: 38vh;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     text-align: center;
@@ -60,11 +53,19 @@ p {
     color: black;
 }
 
-footer {
-    background-color: #220047;
-    color: #767676;
-    text-align:center;
-    padding: 20px;
+
+/* home */
+.home {
+    padding-top: 5em;
+    padding-bottom: 10em;
+}
+
+
+
+/* about */
+.about {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 table {
@@ -76,6 +77,20 @@ table {
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+th {
+    background-color: #0f33ff;
+}
+
+th, td {
+    border-color: #000000;
+    text-align: center;
+}
+
+.gallery {
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 img {
@@ -94,13 +109,10 @@ img {
     padding-top: 50px;
 }
 
-th {
-    background-color: #0f33ff;
-}
 
-th, td {
-    border-color: #000000;
-    text-align: center;
+/* contact */
+.contact {
+    padding-bottom: 30vh;
 }
 
 form {
@@ -149,4 +161,15 @@ input[type="Submit"] {
 
 input[type="submit"]:hover {
     background-color: #1e1e8e;
+}
+
+
+
+/* footer */
+footer {
+    background-color: #220047;
+    color: #767676;
+    text-align:center;
+    padding: 20px;
+    position: center;
 }
